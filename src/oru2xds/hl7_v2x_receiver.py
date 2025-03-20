@@ -11,9 +11,6 @@ import asyncio
 from hl7.mllp import start_hl7_server
 
 import config
-from ihe_xds import IheXds
-
-
 ###################################################################
 
 
@@ -79,6 +76,7 @@ class Hl7v2x:
 	# Adapted from https://python-hl7.readthedocs.io/en/latest/mllp.html
 	#
 	async def process_hl7_message(self, hl7_reader, hl7_writer):
+		from ihe_xds import IheXds  # Delayed import to resolve circular dependency
 		peername = hl7_writer.get_extra_info("peername")
 		logger.info("Connection established %s", peername)
 		try:

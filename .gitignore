@@ -9,4 +9,7 @@ backups/*
 dist
 build/
 src/oru2xds/__pycache__/
-.vscode/*
+.vscode/*/
+my_env/*
+.qodo/history.sqlite
+src/oru2xds/log/oru2xds-20250320.log

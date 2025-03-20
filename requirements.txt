@@ -1,0 +1,8 @@
+aiorun==2022.4.1,
+hl7==0.4.5,
+lxml==4.8.0,
+requests==2.25.1,
+requests_toolbelt==0.9.1,
+striprtf==0.0.20,
+sympy==1.10.1,
+urllib3==1.26.5,
