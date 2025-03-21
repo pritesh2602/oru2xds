@@ -2,7 +2,6 @@
 #
 # Antonio Martins (digiplan.pt@gmail.com)
 #
-
 import os
 import logging
 import aiorun
