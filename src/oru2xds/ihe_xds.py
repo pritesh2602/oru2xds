@@ -10,7 +10,6 @@ from lxml import etree
 from lxml.builder import ElementMaker
 import hl7
 from sympy import false
-
 import config
 import hl7_v2x_receiver
 from hl7_cda import HL7CdaBuilder

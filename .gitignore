@@ -13,3 +13,4 @@ src/oru2xds/__pycache__/
 my_env/*
 .qodo/history.sqlite
 src/oru2xds/log/oru2xds-20250320.log
+.qodo
