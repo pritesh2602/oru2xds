@@ -11,7 +11,7 @@ APP_NAME = 'oru2xds'
 AFFINITY_DOMAIN_ASSIGNING_AUTHORITY_OID = "1.3.6.1.4.1.21367.13.20.3000"
 
 # XDS Provide and Register Document Set-b transaction endpoint
-SERVICE_URL = "http://localhost:8084/xdstools7/sim/default__1/rep/prb"
+SERVICE_URL = "http://localhost:8084/xdstools7.12.0/sim/default__rep_01/rep/prb"
 
 # HL7 listening port
 HL7_LISTENER_PORT = 2575
